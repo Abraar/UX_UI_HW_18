@@ -1,0 +1,70 @@
+body{
+  /*background-color: #b97e46;
+  background-image: url('../pictures/surface.jpg');
+  background-size: 100%;*/
+  background-color: green;
+  background-image: url('../pictures/surface.jpg');
+  background-size: 100%;
+
+}
+div{
+  text-align: center;
+
+}
+img {  
+  max-width: 25%;  
+  height: auto;  
+  }  
+
+.title{
+  text-align: center;
+}
+.flexContainer{
+  outline: 1px solid red;
+  display:flex; 
+  justify-content: center;   
+
+}
+
+.skillbox{
+  outline: 1px solid red;
+  width:33%; 
+  padding : 10px; 
+  margin: 10px; 
+  background-color: yellow;
+}
+
+.workGrid{
+  outline: 1px solid red;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.worksection1{
+  outline: 1px solid red;
+  grid-column: 2; 
+  background-color: yellow;
+  padding : 10px; 
+  margin: 10px; 
+}
+.viewbutton{
+  grid-column: 2;
+}
+.worksection2{
+  outline: 1px solid red;
+  grid-column: 1; 
+}.worksection3{
+  outline: 1px solid red;
+  grid-column: 1; 
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .workGrid{
+  outline: 1px solid red;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+}
