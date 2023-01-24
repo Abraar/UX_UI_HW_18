@@ -33,22 +33,34 @@ img {
   margin: 10px; 
   background-color: yellow;
 }
+.skillboxtest{
+  outline: 1px solid red;
+  width:33%; 
+  padding : 10px; 
+  margin: 10px; 
+  background-color: lightblue;
+}
 
 .workGrid{
   outline: 1px solid red;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.workGrid2{
+  outline: 1px solid red;
+  display:grid;
+  grid-template-columns: 1fr;
 }
 
 .worksection1{
   outline: 1px solid red;
-  grid-column: 2; 
+  grid-column: 3/5; 
   background-color: yellow;
   padding : 10px; 
   margin: 10px; 
 }
 .viewbutton{
-  grid-column: 2;
+  grid-column: 3/5;
 }
 .worksection2{
   outline: 1px solid red;
@@ -67,4 +79,17 @@ img {
   display:grid;
   grid-template-columns: 1fr;
 }
+}.growwer{
+  width:75%;
+  height:75%;
+  background-color: lightblue;
+  margin: 1%;
+  grid-gap: 50px;
+}
+
+.growwer2{
+
+  grid-column: 2/ 6;
+  background-color: lightblue;
+
 }
